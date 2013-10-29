@@ -1,0 +1,110 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+	font-family: 'Helvetica Neue';
+  margin: 0 auto 50px; /* bottom = footer height */
+
+/*background: #41415d;*/
+	background: #e6e6e6;
+	background:-moz-linear-gradient(top, #41415d, #e6e6e6);
+	background:-webkit-linear-gradient(top, #41415d, #e6e6e6);
+	background:-o-linear-gradient(top, #41415d, #e6e6e6);
+	background:-ms-linear-gradient(top, #41415d, #e6e6e6);
+	background:linear-gradient(top, #41415d, #e6e6e6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#41415d', endColorstr='#e6e6e6',GradientType=0);
+}
+
+header {
+	text-align: center;
+	font-family: 'Tangerine', 'Apple Chancery', cursive;
+	/*font-family: 'apple chancery', cursive;*/
+	font-size: 350%;
+	padding: 15px 0px 15px 0px;
+
+	a {
+		text-decoration: none;
+		color: #e6e6e6;
+	}
+}
+
+footer {
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+	padding-bottom: 10px;
+	font-size: 10px;
+ }
+
+
+nav {
+	background-color: #010f54;
+	text-align: center;
+
+	div {
+		display: inline-block;
+		padding: 10px 25px;
+		border-right: 1px solid #fefefe;
+	}
+
+	a {
+		text-decoration: none;
+		color: #e6e6e6;
+	}
+
+	:hover {	
+		background-color: #424f89;
+		color: #fefefe;
+	}
+}
+
+main {
+	background-color: rgba(244,244,244,0.4);
+	width: 80%;
+	min-height: 500px;
+	margin: 0 auto;
+	padding: 15px 10px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
