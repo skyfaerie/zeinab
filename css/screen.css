@@ -127,34 +127,7 @@ footer {
   font-size: 10px;
 }
 
-/* line 66, ../_sass/screen.scss */
-nav {
-  background-color: #010f54;
-  text-align: center;
-}
-/* line 70, ../_sass/screen.scss */
-nav div {
-  display: inline-block;
-  padding: 10px 25px;
-  border-right: 1px solid #fefefe;
-}
-/* line 76, ../_sass/screen.scss */
-nav #first {
-  padding: 10px 0px 10px 25px;
-  border-left: 1px solid #fefefe;
-}
-/* line 81, ../_sass/screen.scss */
-nav a {
-  text-decoration: none;
-  color: #e6e6e6;
-}
-/* line 86, ../_sass/screen.scss */
-nav :hover {
-  background-color: #424f89;
-  color: #fefefe;
-}
-
-/* line 94, ../_sass/screen.scss */
+/* line 65, ../_sass/screen.scss */
 main {
   background-color: rgba(244, 244, 244, 0.4);
   width: 80%;
@@ -162,4 +135,31 @@ main {
   margin: 0 auto;
   padding: 15px 10px;
   border-radius: 0px 0px 25px 25px;
+}
+
+/* line 74, ../_sass/screen.scss */
+nav {
+  background-color: #010f54;
+  text-align: center;
+}
+/* line 78, ../_sass/screen.scss */
+nav div {
+  display: inline-block;
+  padding: 10px 25px;
+  border-right: 1px solid #fefefe;
+}
+/* line 84, ../_sass/screen.scss */
+nav #first {
+  padding: 10px 0px 10px 25px;
+  border-left: 1px solid #fefefe;
+}
+/* line 89, ../_sass/screen.scss */
+nav a {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+/* line 94, ../_sass/screen.scss */
+nav :hover {
+  background-color: #424f89;
+  color: #fefefe;
 }
