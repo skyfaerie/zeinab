@@ -73,6 +73,11 @@ nav {
 		border-right: 1px solid #fefefe;
 	}
 
+	#first { 
+		padding: 10px 0px 10px 25px; 
+		border-left: 1px solid #fefefe; 
+	}
+
 	a {
 		text-decoration: none;
 		color: #e6e6e6;
@@ -83,6 +88,8 @@ nav {
 		color: #fefefe;
 	}
 }
+
+
 
 main {
 	background-color: rgba(244,244,244,0.4);
