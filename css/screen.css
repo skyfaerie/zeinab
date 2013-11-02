@@ -87,35 +87,39 @@ html {
 }
 
 /* line 27, ../_sass/screen.scss */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 32, ../_sass/screen.scss */
 body {
   font-family: 'Helvetica Neue';
   margin: 0 auto 50px;
   /* bottom = footer height */
-  /*background: #41415d;*/
-  background: #e6e6e6;
-  background: -moz-linear-gradient(top, #41415d, #e6e6e6);
-  background: -webkit-linear-gradient(top, #41415d, #e6e6e6);
-  background: -o-linear-gradient(top, #41415d, #e6e6e6);
-  background: -ms-linear-gradient(top, #41415d, #e6e6e6);
-  background: linear-gradient(top, #41415d, #e6e6e6);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#41415d', endColorstr='#e6e6e6',GradientType=0);
+  background: #b2dbf3;
+  background: -moz-linear-gradient(top, #b2dbf3, #fff4ce);
+  background: -webkit-linear-gradient(top, #b2dbf3, #fff4ce);
+  background: -o-linear-gradient(top, #b2dbf3, #fff4ce);
+  background: -ms-linear-gradient(top, #b2dbf3, #fff4ce);
+  background: linear-gradient(top, #b2dbf3, #fff4ce);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2dbf3', endColorstr='#fff4ce',GradientType=0);
 }
 
-/* line 41, ../_sass/screen.scss */
+/* line 45, ../_sass/screen.scss */
 header {
   text-align: center;
   font-family: 'Tangerine', 'Apple Chancery', cursive;
-  /*font-family: 'apple chancery', cursive;*/
-  font-size: 350%;
-  padding: 15px 0px 15px 0px;
+  font-size: 84px;
+  padding: 30px 0px;
 }
-/* line 48, ../_sass/screen.scss */
+/* line 51, ../_sass/screen.scss */
 header a {
   text-decoration: none;
-  color: #e6e6e6;
+  color: #000000;
 }
 
-/* line 54, ../_sass/screen.scss */
+/* line 57, ../_sass/screen.scss */
 footer {
   position: absolute;
   left: 0;
@@ -127,39 +131,45 @@ footer {
   font-size: 10px;
 }
 
-/* line 66, ../_sass/screen.scss */
-nav {
-  background-color: #010f54;
-  text-align: center;
-}
-/* line 70, ../_sass/screen.scss */
-nav div {
-  display: inline-block;
-  padding: 10px 25px;
-  border-right: 1px solid #fefefe;
-}
-/* line 76, ../_sass/screen.scss */
-nav #first {
-  padding: 10px 0px 10px 25px;
-  border-left: 1px solid #fefefe;
-}
-/* line 81, ../_sass/screen.scss */
-nav a {
-  text-decoration: none;
-  color: #e6e6e6;
-}
-/* line 86, ../_sass/screen.scss */
-nav :hover {
-  background-color: #424f89;
-  color: #fefefe;
-}
-
-/* line 94, ../_sass/screen.scss */
+/* line 68, ../_sass/screen.scss */
 main {
-  background-color: rgba(244, 244, 244, 0.4);
-  width: 80%;
+  background-color: rgba(244, 244, 244, 0.9);
   min-height: 500px;
   margin: 0 auto;
   padding: 15px 10px;
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 25px;
+}
+
+/* line 76, ../_sass/screen.scss */
+nav {
+  margin: 0;
+  padding: 0 0 20px 10px;
+  font-size: 20px;
+}
+/* line 81, ../_sass/screen.scss */
+nav ul, nav li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+/* line 88, ../_sass/screen.scss */
+nav a:link, nav a:visited {
+  float: left;
+  line-height: 14px;
+  font-weight: bold;
+  margin: 0 10px 4px 10px;
+  text-decoration: none;
+  color: #ccc;
+}
+/* line 97, ../_sass/screen.scss */
+nav #current, nav a:visited#current, nav a:hover {
+  border-bottom: 4px solid #000;
+  padding-bottom: 2px;
+  background: transparent;
+  color: #000;
+}
+/* line 104, ../_sass/screen.scss */
+nav a:hover {
+  color: #000;
 }
