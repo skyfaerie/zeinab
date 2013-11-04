@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+// @import "compass/reset";
 
 
 /*****************************************************************************/
@@ -17,9 +17,10 @@
   margin: 0;
 }
 
+
 p{
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 html {
@@ -49,7 +50,7 @@ body {
 header {
 	text-align: center;
 	font-family: 'Tangerine', 'Apple Chancery', cursive;
-	font-size: 84px;
+	font-size: 48px;
 	padding: 30px 0px;
 
 	a {
@@ -65,15 +66,15 @@ footer {
   height: 30px;
   width: 100%;
   text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	font-size: 10px;
  }
 
 main {
-	background-color: rgba(244,244,244,0.9);
+	background-color: rgba(244,244,244,0.6);
 	min-height: 440px;
 	margin: 0 auto;
-	padding: 15px 10px;
+	padding: 25px 30px;
 	border-radius: 25px;
 }
 
@@ -99,12 +100,32 @@ nav {
 	}
 
 	#current, a:visited#current, a:hover {
-		border-bottom: 4px solid #000;
-		padding-bottom: 2px;
+		border-bottom: 3px solid #000;
+		padding-bottom: 5px;
 		background: transparent;
 		color: #000;
 	}
 
 	a:hover { color: #000 /* #4a47e0; */ }
 }
+
+
+/*****************************************************************************/
+/*
+/* DIRECTIONS 
+/*
+/*****************************************************************************/
+
+.map{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
 
