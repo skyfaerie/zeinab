@@ -71,14 +71,14 @@ footer {
 
 main {
 	background-color: rgba(244,244,244,0.9);
-	min-height: 500px;
+	min-height: 440px;
 	margin: 0 auto;
 	padding: 15px 10px;
 	border-radius: 25px;
 }
 
 nav {
-	margin: 0;
+	margin: 0 0 5px 0;
 	padding: 0 0 20px 10px;
 	font-size: 20px;
 
@@ -95,7 +95,7 @@ nav {
 		font-weight: bold;
 		margin: 0 10px 4px 10px;
 		text-decoration: none;
-		color: #ccc;
+		color: #666;
 	}
 
 	#current, a:visited#current, a:hover {
@@ -105,6 +105,6 @@ nav {
 		color: #000;
 	}
 
-	a:hover { color: #000; }
+	a:hover { color: #000 /* #4a47e0; */ }
 }
 

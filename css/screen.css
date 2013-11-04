@@ -139,7 +139,7 @@ footer {
 /* line 72, ../_sass/screen.scss */
 main {
   background-color: rgba(244, 244, 244, 0.9);
-  min-height: 500px;
+  min-height: 440px;
   margin: 0 auto;
   padding: 15px 10px;
   border-radius: 25px;
@@ -147,7 +147,7 @@ main {
 
 /* line 80, ../_sass/screen.scss */
 nav {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0 0 20px 10px;
   font-size: 20px;
 }
@@ -165,7 +165,7 @@ nav a:link, nav a:visited {
   font-weight: bold;
   margin: 0 10px 4px 10px;
   text-decoration: none;
-  color: #ccc;
+  color: #666;
 }
 /* line 101, ../_sass/screen.scss */
 nav #current, nav a:visited#current, nav a:hover {
@@ -176,5 +176,5 @@ nav #current, nav a:visited#current, nav a:hover {
 }
 /* line 108, ../_sass/screen.scss */
 nav a:hover {
-  color: #000;
+  color: black;
 }
