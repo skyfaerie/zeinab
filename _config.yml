@@ -1,3 +1,4 @@
 name: Zeinab Multipurpose, llc.
 pygments: true
-url: url: "http://skyfaerie.github.io/zeinab"
+baseurl: /
+url: "http://skyfaerie.github.io/zeinab"
