@@ -5,7 +5,6 @@
 
 // @import "compass/reset";
 
-
 /*****************************************************************************/
 /*
 /* Common
@@ -15,12 +14,6 @@
 /* Global Reset */
 * {
   margin: 0;
-}
-
-
-p{
-	font-size: 16px;
-	line-height: 20px;
 }
 
 html {
@@ -38,7 +31,8 @@ body {
 	font-family: 'Helvetica Neue';
   margin: 0 auto 50px; /* bottom = footer height */
 
-  background: #b2dbf3;
+  // background: #b2dbf3;
+  background-color: #fef4cf;
 	background:-moz-linear-gradient(top, #b2dbf3, #fff4ce);
 	background:-webkit-linear-gradient(top, #b2dbf3, #fff4ce);
 	background:-o-linear-gradient(top, #b2dbf3, #fff4ce);
@@ -50,7 +44,7 @@ body {
 header {
 	text-align: center;
 	font-family: 'Tangerine', 'Apple Chancery', cursive;
-	font-size: 48px;
+	font-size: 84px;
 	padding: 30px 0px;
 
 	a {
@@ -83,6 +77,8 @@ nav {
 	padding: 0 0 20px 10px;
 	font-size: 20px;
 
+	div { display: inline; }
+
 	ul, li {
 		margin: 0;
 		padding: 0;
@@ -91,7 +87,7 @@ nav {
 	}
 
 	a:link, a:visited {
-		float: left;
+		// float: left;
 		line-height: 14px;
 		font-weight: bold;
 		margin: 0 10px 4px 10px;
@@ -109,16 +105,84 @@ nav {
 	a:hover { color: #000 /* #4a47e0; */ }
 }
 
+h1 { padding-bottom: .8em; }
 
-/*****************************************************************************/
-/*
-/* DIRECTIONS 
-/*
-/*****************************************************************************/
-
-.map{
-	float: right;
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+	padding-bottom: 1em;
 }
+
+footer { p { line-height: 0; }}
+/*****************************************************************************/
+/*
+/* HOME
+/*
+/*****************************************************************************/
+
+#handshake { width: 50%; margin: 0 auto; display: block;}
+
+/*****************************************************************************/
+/*
+/* ABOUT
+/*
+/*****************************************************************************/
+
+#portrait{
+	float: left; 
+	padding-right: 15px;
+}
+
+/*****************************************************************************/
+/*
+/* SERVICES
+/*
+/*****************************************************************************/
+
+
+
+/*****************************************************************************/
+/*
+/* DIRECTIONS
+/*
+/*****************************************************************************/
+
+iframe{ 
+	margin: 0 auto; 
+	display: block; 
+	width: 90%;
+	min-height: 50%;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//
+//////////////          MEDIA QUERIES BELOW HERE               ///////////////////
+//
+//////////////////////////////////////////////////////////////////////////////////
+
+
+@media (min-width: 200px) and (max-width: 724px) {
+	
+	header{ 
+		font-size: 60px; 
+	}
+
+	nav { 
+		div {
+			display: block;
+			width: 100%;
+			padding-bottom: 3px;
+			text-align: center;
+
+		}
+
+		a:hover{ border-bottom: none; }
+	}
+}
+
+
+
 
 
 
