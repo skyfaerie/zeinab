@@ -65,19 +65,6 @@ footer {
   font-size: 10px;
 }
 
-<<<<<<< HEAD
-/* line 65, ../_sass/screen.scss */
-main {
-  background-color: rgba(244, 244, 244, 0.4);
-  width: 80%;
-  min-height: 500px;
-  margin: 0 auto;
-  padding: 15px 10px;
-  border-radius: 0px 0px 25px 25px;
-}
-
-/* line 74, ../_sass/screen.scss */
-=======
 /* line 67, ../_sass/screen.scss */
 main {
   background-color: rgba(244, 244, 244, 0.6);
@@ -88,17 +75,12 @@ main {
 }
 
 /* line 75, ../_sass/screen.scss */
->>>>>>> e25a6ef72108f5e36166b9923d10da6ebfe99d96
 nav {
   margin: 0 0 5px 0;
   padding: 0 0 20px 10px;
   font-size: 20px;
 }
-<<<<<<< HEAD
-/* line 78, ../_sass/screen.scss */
-=======
 /* line 80, ../_sass/screen.scss */
->>>>>>> e25a6ef72108f5e36166b9923d10da6ebfe99d96
 nav div {
   display: inline;
 }
@@ -117,15 +99,6 @@ nav a:link, nav a:visited {
   text-decoration: none;
   color: #666;
 }
-<<<<<<< HEAD
-/* line 84, ../_sass/screen.scss */
-nav #first {
-  padding: 10px 0px 10px 25px;
-  border-left: 1px solid #fefefe;
-}
-/* line 89, ../_sass/screen.scss */
-nav a {
-=======
 /* line 98, ../_sass/screen.scss */
 nav #current, nav a:visited#current, nav a:hover {
   border-bottom: 3px solid #000;
@@ -150,21 +123,13 @@ p {
   padding-bottom: 1em;
 }
 
-/* line 116, ../_sass/screen.scss */
+/* line 117, ../_sass/screen.scss */
 a {
->>>>>>> e25a6ef72108f5e36166b9923d10da6ebfe99d96
   text-decoration: none;
   color: #1398db;
 }
-<<<<<<< HEAD
-/* line 94, ../_sass/screen.scss */
-nav :hover {
-  background-color: #424f89;
-  color: #fefefe;
-}
-=======
 
-/* line 118, ../_sass/screen.scss */
+/* line 119, ../_sass/screen.scss */
 footer p {
   line-height: 0;
 }
@@ -174,7 +139,7 @@ footer p {
 /* HOME
 /*
 /*****************************************************************************/
-/* line 125, ../_sass/screen.scss */
+/* line 126, ../_sass/screen.scss */
 #handshake {
   width: 50%;
   margin: 0 auto;
@@ -186,7 +151,7 @@ footer p {
 /* ABOUT
 /*
 /*****************************************************************************/
-/* line 133, ../_sass/screen.scss */
+/* line 134, ../_sass/screen.scss */
 #portrait {
   float: left;
   padding-right: 15px;
@@ -202,7 +167,7 @@ footer p {
 /* DIRECTIONS
 /*
 /*****************************************************************************/
-/* line 152, ../_sass/screen.scss */
+/* line 153, ../_sass/screen.scss */
 iframe {
   margin: 0 auto;
   display: block;
@@ -211,21 +176,20 @@ iframe {
 }
 
 @media (min-width: 200px) and (max-width: 724px) {
-  /* line 169, ../_sass/screen.scss */
+  /* line 170, ../_sass/screen.scss */
   header {
     font-size: 60px;
   }
 
-  /* line 174, ../_sass/screen.scss */
+  /* line 175, ../_sass/screen.scss */
   nav div {
     display: block;
     width: 100%;
     padding-bottom: 3px;
     text-align: center;
   }
-  /* line 182, ../_sass/screen.scss */
+  /* line 183, ../_sass/screen.scss */
   nav a:hover {
     border-bottom: none;
   }
 }
->>>>>>> e25a6ef72108f5e36166b9923d10da6ebfe99d96
