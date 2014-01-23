@@ -1,0 +1,103 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+html { min-height: 100%; }
+html { min-height: 100%; }
+
+.blue { background: #020C46; }
+#blue { background: #020C46; }
+
+.center { text-align: center; }
+
+.border { 
+	border-bottom: 1px solid #3B3B4C; 
+	padding: 0; 
+}
+
+#logo { 
+	display: block; 
+	margin: 0 auto; 
+	padding: 1em 0; 
+}
+
+.main {
+	min-height: 75%;
+}
+
+.footer {	
+	margin-top: 1em;
+	padding-top: 0.5em;
+	background: #020C46;
+}
+
+footer {
+	color: #fff;
+	text-align: center;
+}
+
+.points { margin-left: 2em; }
+
+.contact-form {
+	border: 1px solid #ccc; 
+	border-radius: 5px; 
+	background-color: #ddd; 
+	padding: 10px; 
+}
+
+#comments {
+	min-height: 10em;
+}
+
+#submit-btn{
+	background-color: #020C46;
+}
+
+//* direction iframe */
+
+iframe { 
+	margin: 0 auto; 
+	display: block; 
+	width: 90%;
+	min-height: 50%;
+}
+
+

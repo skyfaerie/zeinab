@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeinab Multipurpose LLC</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Diplomata+SC' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Cabin:500,500italic' rel='stylesheet' type='text/css'> 
+  </head>
+  <body>
+    
+    {% include header.html %}
+       
+    <div class="row main">
+      <div class="large-12 columns">
+        <main>
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
