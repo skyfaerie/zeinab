@@ -7487,3 +7487,8 @@ iframe {
   width: 90%;
   min-height: 50%;
 }
+
+/* line 104, ../scss/app.scss */
+h2 {
+  font-weight: bold;
+}
