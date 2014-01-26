@@ -7407,7 +7407,7 @@ html {
 }
 
 /* line 44, ../scss/app.scss */
-html {
+body {
   min-height: 100%;
 }
 
@@ -7480,7 +7480,7 @@ footer {
   background-color: #020C46;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 iframe {
   margin: 0 auto;
   display: block;
@@ -7488,7 +7488,7 @@ iframe {
   min-height: 50%;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 h2 {
   font-weight: bold;
 }
