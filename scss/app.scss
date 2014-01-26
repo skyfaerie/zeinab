@@ -41,7 +41,7 @@
 
 
 html { min-height: 100%; }
-html { min-height: 100%; }
+body { min-height: 100%; }
 
 .blue { background: #020C46; }
 #blue { background: #020C46; }
@@ -89,6 +89,7 @@ footer {
 
 #submit-btn {
 	background-color: #020C46;
+	
 }
 
 //* direction iframe */
