@@ -12,16 +12,17 @@
   </head>
   <body>
     
-    {% include header.html %}
+    <div id="content-wrapper">
+      {% include header.html %}
        
-    <div class="row main">
-      <div class="large-12 columns">
-        <main>
-          {{ content }}
-        </main>
+      <div class="row main">
+        <div class="large-12 columns">
+          <main>
+            {{ content }}
+          </main>
+        </div>
       </div>
     </div>
-
     {% include footer.html %}
 
     <script src="bower_components/jquery/jquery.js"></script>
