@@ -7403,71 +7403,76 @@ th.hide-for-touch {
 
 /* line 43, ../scss/app.scss */
 html {
-  min-height: 100%;
+  height: 100%;
 }
 
 /* line 44, ../scss/app.scss */
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 /* line 46, ../scss/app.scss */
+#content-wrapper {
+  min-height: 91%;
+}
+
+/* line 50, ../scss/app.scss */
 .blue {
   background: #020C46;
 }
 
-/* line 47, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 #blue {
   background: #020C46;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 .center {
   text-align: center;
 }
 
-/* line 51, ../scss/app.scss */
+/* line 55, ../scss/app.scss */
 .border {
   border-bottom: 1px solid #3B3B4C;
   padding: 0;
 }
 
-/* line 56, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 #logo {
   display: block;
   margin: 0 auto;
   padding: 1em 0;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .top-bar {
   padding-bottom: 3em;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .main {
   min-height: 75%;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .footer {
   margin-top: 1em;
   padding-top: 0.5em;
   background: #020C46;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 footer {
   color: #fff;
   text-align: center;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 .points {
   margin-left: 2em;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .contact-form {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -7475,19 +7480,19 @@ footer {
   padding: 10px;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 #comments {
   min-height: 10em;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 #submit-btn {
   background-color: #020C46;
   float: right;
   margin-right: 1.333em;
 }
 
-/* line 102, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 iframe {
   margin: 0 auto;
   display: block;
@@ -7495,7 +7500,7 @@ iframe {
   min-height: 50%;
 }
 
-/* line 110, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 h2 {
   font-weight: bold;
 }

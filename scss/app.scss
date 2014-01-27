@@ -40,8 +40,12 @@
 //   "foundation/components/visibility";
 
 
-html { min-height: 100%; }
-body { min-height: 100%; }
+html { height: 100%; }
+body { height: 100%; }
+
+#content-wrapper {
+	min-height: 91%;
+}
 
 .blue { background: #020C46; }
 #blue { background: #020C46; }
