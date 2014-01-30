@@ -7457,22 +7457,23 @@ body {
 /* line 74, ../scss/app.scss */
 .footer {
   margin-top: 1em;
-  padding-top: 0.5em;
+  padding-top: 1.333em;
   background: #020C46;
+  font-size: 10px;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 footer {
   color: #fff;
   text-align: center;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .points {
   margin-left: 2em;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .contact-form {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -7480,19 +7481,19 @@ footer {
   padding: 10px;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 #comments {
   min-height: 10em;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 #submit-btn {
   background-color: #020C46;
   float: right;
   margin-right: 1.333em;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 iframe {
   margin: 0 auto;
   display: block;
@@ -7500,12 +7501,12 @@ iframe {
   min-height: 50%;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 h2 {
   font-weight: bold;
 }
 
-/* line 118, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 #thanks {
   display: none;
   margin-left: 1em;
