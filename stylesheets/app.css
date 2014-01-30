@@ -7504,3 +7504,13 @@ iframe {
 h2 {
   font-weight: bold;
 }
+
+/* line 118, ../scss/app.scss */
+#thanks {
+  display: none;
+  margin-left: 1em;
+  padding: 0.5em 0em 1em 0em;
+  font-style: italic;
+  font-size: 10pt;
+  color: #1bb558;
+}
